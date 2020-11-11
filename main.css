@@ -1,0 +1,60 @@
+* {
+margin: 0;
+padding: 0;
+}
+body{
+    background-color: #f0f0f0;
+    color: #585858;
+    font-size: 13pt;
+    font-family: 'Quicksand', sans-serif;
+}
+a{
+    color: #60c3af;
+    text-decoration: none;
+}
+a:hover{
+    color: #1c9975;
+    text-decoration: none;
+}
+.navbar{
+    margin: 0 20px;
+    background-color: #f0f0f0 !important;
+}
+.navbar-brand{
+    font-weight: 650;
+    color: #585858 !important;
+}
+.container{
+    margin: 0 20px;
+    max-width: fit-content;
+}
+#info p{
+    font-weight: 700;
+}
+#profilePicture{
+    max-width: fit-content;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+#profilePicture img{
+    border-radius: 50%;
+}
+#mainRow{
+    margin-bottom: 20px;
+}
+@media (min-width: 992px){
+    #links{
+        padding-left: 20px;
+    }
+}
+/* #primaryContent{
+    margin-right: 10px;
+    float: left;
+    padding-right: 2em;
+}
+#secondaryContent{
+	float: left;
+	padding: 0px 0px 5px 10px;
+	border-left: solid 1px #585858;
+	margin-right: 5px;
+} */
